@@ -62,6 +62,8 @@ Data: ##/##/2018
                             <label for="iMensagem">Sua mensagem</label>
                             <textarea id="iMensagem" class="form-control" rows="5" name="nMensagem" placeholder="Sua mensagem."></textarea>
                         </div>
+                        <input type="reset" class="btn btn-info" value="Limpar">
+                        <input type="submit" class="btn btn-info" value="Enviar">
                     </form>
                 </div>
                 <br>
