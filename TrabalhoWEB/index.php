@@ -32,7 +32,7 @@ Data: ##/##/2018
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Página inicial</a></li>
                         <li><a href="#">Calcular</a></li>
-                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="contato.php">Fale Conosco</a></li>
                         <li><a href="#">Sobre</a></li>
                     </ul>
                 </nav>
@@ -47,7 +47,7 @@ Data: ##/##/2018
                 Aluna: Marina Margarida de Olivera <br>
                 E-mail: #@gmail.com <br>
                 Aluno: Vitor de Siqueira Cotta <br>
-                E-mail: Vithorkross@outlook.com <br>
+                E-mail: VithorKross@outlook.com <br>
             </footer>
         </div>
     </body>
