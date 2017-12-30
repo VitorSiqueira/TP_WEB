@@ -40,28 +40,30 @@ Data: ##/##/2018
             <main>
                 <h1>Fale Conosco</h1>
                 <p>Preencha o formulário abaixo para fazer contato com o portal SecurityVip. Retornaremos seu e-mail o mais breve possível</p>
-                <form action="get">
-                    <div class="form-group">
-                        <label for="iNome">Seu Nome</label>
-                        <input id="iNome" type="text" name="nNome" placeholder="Coloque seu nome"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="iEmail">Seu E-Mail</label>
-                        <input id="iEmail" type="email" name="nEmail" placeholder="Coloque seu E-Mail"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="iTelefone">Telefone de Contato</label>
-                        <input id="iTelefone" type="tel" name="nTelefone" placeholder="Coloque seu Telefone"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="iAssunto">Assunto</label>
-                        <input id="iAssunto" type="text" name="nAssunto" placeholder="Coloque título do Assunto"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="iMensagem">Assunto</label>
-                        <input id="iMensagem" type="text" name="nAssunto" placeholder="Sua mensagem."/>
-                    </div>
-                </form>
+                <div class="container-fluid">
+                    <form action="get">
+                        <div class="form-group">
+                            <label for="iNome">Seu Nome</label>
+                            <input id="iNome" class="form-control" type="text" name="nNome" placeholder="Coloque seu nome"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="iEmail">Seu E-Mail</label>
+                            <input id="iEmail" class="form-control" type="email" name="nEmail" placeholder="Coloque seu E-Mail"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="iTelefone">Telefone de Contato</label>
+                            <input id="iTelefone" class="form-control" type="tel" name="nTelefone" placeholder="Coloque seu Telefone"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="iAssunto">Assunto</label>
+                            <input id="iAssunto" class="form-control" type="text" name="nAssunto" placeholder="Coloque título do Assunto"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="iMensagem">Sua mensagem</label>
+                            <textarea id="iMensagem" class="form-control" rows="5" name="nMensagem" placeholder="Sua mensagem."></textarea>
+                        </div>
+                    </form>
+                </div>
                 <br>
             </main>
             <footer>
