@@ -15,7 +15,7 @@ Data: ##/##/2018
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Marina Margarida de Oliveira, Vitor de Siqueira Cotta">
-        <title>Página Inicial</title>
+        <title>Simulação Carro</title>
         <link rel="icon" type="image/png" sizes="96x96" href="_img/icone.png">
         <link rel="stylesheet" type="text/css" href="_css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="_css/estilo.css">
@@ -30,16 +30,16 @@ Data: ##/##/2018
                         <a class="navbar-brand" href="#">NOME DO SITE</a>
                     </div>
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Página inicial</a></li>
-                        <li><a href="#">Calcular</a></li>
+                        <li><a href="index.php">Página inicial</a></li>
+                        <li><a href="simulacaoCasa.php">Simulação Casa</a></li>
+                        <li class="active"><a href="#">Simulação Carro</a></li>
                         <li><a href="contato.php">Fale Conosco</a></li>
-                        <li><a href="#">Sobre</a></li>
                     </ul>
                 </nav>
             </header>
             <main>
                 <div class="container-fluid">
-                    <h1>Página Inicial</h1>
+                    <h1>Simulação Carro</h1>
                     <p>Conteúdo Qualquer</p>
                     <br>
                 </div>

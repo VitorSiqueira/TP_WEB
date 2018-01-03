@@ -38,9 +38,9 @@ Data: ##/##/2018
                 </nav>
             </header>
             <main>
-                <h1>Fale Conosco</h1>
-                <p>Preencha o formulário abaixo para fazer contato com o portal SecurityVip. Retornaremos seu e-mail o mais breve possível</p>
                 <div class="container-fluid">
+                    <h1>Fale Conosco</h1>
+                    <p>Preencha o formulário abaixo para fazer contato com o portal SecurityVip. Retornaremos seu e-mail o mais breve possível</p>
                     <form action="get">
                         <div class="form-group">
                             <label for="iNome">Seu Nome</label>
