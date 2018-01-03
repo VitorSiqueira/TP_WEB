@@ -31,9 +31,10 @@ Data: ##/##/2018
                     </div>
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Página inicial</a></li>
-                        <li><a href="#">Calcular</a></li>
+                        <li><a href="simulacaoCasa.php">Simulação Casa</a></li>
+                        <li><a href="simulacaoCarro.php">Simulação Carro</a></li>
                         <li><a href="contato.php">Fale Conosco</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="sobre.php">Sobre</a></li>
                     </ul>
                 </nav>
             </header>

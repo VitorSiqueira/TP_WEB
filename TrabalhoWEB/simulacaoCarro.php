@@ -34,6 +34,7 @@ Data: ##/##/2018
                         <li><a href="simulacaoCasa.php">Simulação Casa</a></li>
                         <li class="active"><a href="#">Simulação Carro</a></li>
                         <li><a href="contato.php">Fale Conosco</a></li>
+                        <li><a href="sobre.php">Sobre</a></li>
                     </ul>
                 </nav>
             </header>
