@@ -41,8 +41,56 @@ Data: ##/##/2018
             </header>
             <main>
                 <div class="container-fluid">
-                    <h1>Sobre</h1>
-                    <p>Conteúdo Qualquer</p>
+                    <h2>Material utilizado</h2>
+                    <p style="font-size: 18px;">A tabela abaixo apresenta o material utilizado para realizar a atividade e os frameworks usados.</p>                                                                                      
+                    <div class="table-responsive">          
+                        <table class="table table-condensed table-hover table-responsive table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Recurso</th>
+                                    <th>Descrição</th>
+                                    <th>Fonte</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa fa-css3"></i> Bootstrap v3.3.7</td>
+                                    <td>Framework</td>
+                                    <td><a href="https://getbootstrap.com/docs/3.3/">https://getbootstrap.com/docs/3.3/</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-wrench"></i> Jquery 3.3.7</td>
+                                    <td>Framework</td>
+                                    <td><a href="https://jquery.com/">https://jquery.com/</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-wrench"></i> Netbeans 8.2</td>
+                                    <td>IDE</td>
+                                    <td><a href="https://netbeans.org/">https://netbeans.org/</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-font-awesome"></i> Font Awesome</td>
+                                    <td>Icones</td>
+                                    <td><a href="http://fontawesome.io/">http://fontawesome.io/</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-html5"></i> W3C School</td>
+                                    <td>Material de apoio</td>
+                                    <td><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-youtube"></i> Cursos em vídeo</td>
+                                    <td>Material de Apoio</td>
+                                    <td><a href="https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o">https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o</a></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-photo"></i> Public Domain Pictures</td>
+                                    <td>Fonte das imagens</td>
+                                    <td><a href="http://www.publicdomainpictures.net/">http://www.publicdomainpictures.net/</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <br>
                 </div>
             </main>

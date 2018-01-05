@@ -41,8 +41,25 @@ Data: ##/##/2018
             </header>
             <main>
                 <div class="container-fluid">
-                    <h1>Página Inicial</h1>
-                    <p>Conteúdo Qualquer</p>
+                    <h1>Bem-vindo(a)!</h1>
+                    <h2>Saiba mais sobre nossos serviços, por favor o que pretende fazer?</h2>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <figure>
+                                <img class="img-responsive img-rounded" src="img/carro.jpg">
+                                <figcaption>Seguro Automotivo</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                            <figure>
+                                <img class="img-responsive img-rounded" src="img/casaDeAbelha.jpg">
+                                <figcaption>Seguro Residencial</figcaption>
+                            </figure>
+                        </div>
+                    </div>
                     <br>
                 </div>
             </main>

@@ -17,12 +17,15 @@ body {
     background: dodgerblue;
 }
 
-fieldset {
-    border: 1px groove #ddd !important;
-    padding: 0 1.4em 1.4em 1.4em !important;
-    margin: 0 0 1.5em 0 !important;
-    -webkit-box-shadow:  0px 0px 0px 0px #000;
-            box-shadow:  0px 0px 0px 0px #000;
+figure {
+    background: green;
+    padding: 10px;
+}
+
+figcaption {
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
 footer {
@@ -45,6 +48,7 @@ legend {
 main {
     background-color: ghostwhite;
     min-height: 1000px;
+    background:rgba(255,255,255,0.9);
 }
 
 h1 {
@@ -59,7 +63,6 @@ h1 {
 
 /*ID*/
 
-div#apresentacao {
-    background: dodgerblue;
-    color: white;
+body {
+    background-image: url(img/live-1532301_1920.jpg);
 }
