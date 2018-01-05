@@ -15,7 +15,7 @@ Data: ##/##/2018
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Marina Margarida de Oliveira, Vitor de Siqueira Cotta">
-        <title>Página Inicial</title>
+        <title>Sobre</title>
         <link rel="icon" type="image/png" sizes="96x96" href="_img/icone.png">
         <link rel="stylesheet" type="text/css" href="_css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="_css/estilo.css">
@@ -40,7 +40,7 @@ Data: ##/##/2018
             </header>
             <main>
                 <div class="container-fluid">
-                    <h1>Página Inicial</h1>
+                    <h1>Sobre</h1>
                     <p>Conteúdo Qualquer</p>
                     <br>
                 </div>
