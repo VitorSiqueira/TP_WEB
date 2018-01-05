@@ -15,12 +15,13 @@ Data: ##/##/2018
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Marina Margarida de Oliveira, Vitor de Siqueira Cotta">
-        <title>Simulação Casa</title>
+        <link rel="stylesheet" href="FrameWorks/font-awesome-4.7.0/css/font-awesome.css">
+        <script type="text/javascript" src="FrameWorks/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="FrameWorks/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <link rel="stylesheet" type="text/css" href="FrameWorks/bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
         <link rel="icon" type="image/png" sizes="96x96" href="_img/icone.png">
-        <link rel="stylesheet" type="text/css" href="_css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="_css/estilo.css">
-        <script type="text/javascript" src="_js/jquery.js"></script>
-        <script type="text/javascript" src="_js/funcao.js"></script>
+        <title>Simulação Casa</title>
     </head>
     <body>
         <div class="container">

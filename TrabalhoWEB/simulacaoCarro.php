@@ -15,13 +15,13 @@ Data: ##/##/2018
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Marina Margarida de Oliveira, Vitor de Siqueira Cotta">
-        <title>Simulação Carro</title>
+        <link rel="stylesheet" href="FrameWorks/font-awesome-4.7.0/css/font-awesome.css">
+        <script type="text/javascript" src="FrameWorks/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="FrameWorks/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <link rel="stylesheet" type="text/css" href="FrameWorks/bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
         <link rel="icon" type="image/png" sizes="96x96" href="_img/icone.png">
-        <link rel="stylesheet" type="text/css" href="_css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="_css/estilo.css">
-        <script type="text/javascript" src="_js/jquery.js"></script>
-        <script type="text/javascript" src="_js/bootstrap.js"></script>
-        <script type="text/javascript" src="_js/funcao.js"></script>
+        <title>Simulação Carro</title>
     </head>
     <body>
         <div class="container">
@@ -48,9 +48,9 @@ Data: ##/##/2018
                     </div>
                     <ul class="nav nav-tabs">
                         
-                        <li class="active"><a data-toggle="tab" href="#iCliente"><span class="glyphicon glyphicon-user"></span> Dados do Cliente</a></li>
-                        <li><a data-toggle="tab" href="#iCarro">Dados do Carro</a></li>
-                        <li><a data-toggle="tab" href="#iTipoSeguro"><span class=""></span> Tipo de Seguro</a></li>
+                        <li class="active"><a data-toggle="tab" href="#iCliente"><i class="fa fa-user"></i> Dados do Cliente</a></li>
+                        <li><a data-toggle="tab" href="#iCarro"><i class="fa fa-automobile"></i> Dados do Carro</a></li>
+                        <li><a data-toggle="tab" href="#iTipoSeguro"><i class="fa fa-file-text"></i>  Tipo de Seguro</a></li>
                     </ul>
                     <form action="#">
                         <div class="tab-content">
@@ -68,13 +68,13 @@ Data: ##/##/2018
                                         <div class="panel panel-default">
                                             <div class="panel-heading">Gênero</div>
                                             <div class="panel-body">
-                                                <label class="radio-inline"><input id="iMasculino" name="nGenero" type="radio">Masculino</label>
-                                                <label class="radio-inline"><input id="iFeminino" name="nGenero" type="radio">Feminino</label>
-                                                <label class="radio-inline"><input id="iNaoBinario" name="nGenero" type="radio">Não Binário</label>
+                                                <label class="radio-inline"><input id="iMasculino" name="nGenero" type="radio"><i class="fa fa-mars"></i> Masculino</label>
+                                                <label class="radio-inline"><input id="iFeminino" name="nGenero" type="radio"><i class="fa fa-venus"></i> Feminino</label>
+                                                <label class="radio-inline"><input id="iNaoBinario" name="nGenero" type="radio"><i class="fa fa-transgender-alt"></i> Não Binário</label>
                                             </div>
                                         </div>
                                         <div class="panel panel-default">
-                                            <div class="panel-heading">Estado Civil</div>
+                                            <div class="panel-heading"><i class="fa fa-"></i> Estado Civil</div>
                                             <div class="panel-body">
                                                 <label class="radio-inline"><input id="iCasado" name="nEstadoCivil" type="radio">Casado(a)</label>
                                                 <label class="radio-inline"><input id="iViuvo" name="nEstadoCivil" type="radio">Viuvo(a)</label>
@@ -84,7 +84,7 @@ Data: ##/##/2018
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="iFilhos">Filhos</label>
+                                            <label for="iFilhos"><i class="fa fa-child"></i> Filhos</label>
                                             <select class="form-control" id="iFilhos">
                                                 <option>0</option>
                                                 <option>1</option>
@@ -111,11 +111,11 @@ Data: ##/##/2018
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="iNascimento">Data de nascimento</label>
+                                            <label for="iNascimento"><i class="fa fa-birthday-cake"></i> Data de nascimento</label>
                                             <input id="iNascimento" name="nNascimento" type="date" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label for="iExpedicaoHabilitacao">Data de expedição da habilitação</label>
+                                            <label for="iExpedicaoHabilitacao"><i class="fa fa-address-card"></i> Data de expedição da habilitação</label>
                                             <input id="iExpedicaoHabilitacao" name="nExpedicaoHabilitacao" type="date" class="form-control">
                                         </div>
                                     </div>
@@ -204,8 +204,8 @@ Data: ##/##/2018
                                         <div class="checkbox">
                                             <label class="checkbox-inline"><input type="checkbox" value="">Concordo com os termos</label>
                                         </div>
-                                        <button type="reset" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span> Apagar</button>
-                                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-ok"></span> Enviar</button>
+                                        <button type="reset" class="btn btn-default"><i class="fa fa-trash"></i> Apagar</button>
+                                        <button type="submit" class="btn btn-default"><i class="fa fa-send"></i> Enviar</button>
                                     </div>
                                 </div>
                             </div>
