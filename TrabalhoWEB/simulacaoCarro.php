@@ -47,8 +47,7 @@ Data: ##/##/2018
                         <p>Este formulário irá coletar os dados e serão mantidos em sigilo. O formulário será encaminha e analisado pela equipe.</p>
                     </div>
                     <ul class="nav nav-tabs">
-                        
-                        <li class="active"><a data-toggle="tab" href="#iCliente"><i class="fa fa-user"></i> Dados do Cliente</a></li>
+                        <li class="active"><a data-toggle="tab" href="#iCliente"><i class="fa fa-user"></i> Dados do Condutor</a></li>
                         <li><a data-toggle="tab" href="#iCarro"><i class="fa fa-automobile"></i> Dados do Carro</a></li>
                         <li><a data-toggle="tab" href="#iTipoSeguro"><i class="fa fa-file-text"></i>  Tipo de Seguro</a></li>
                     </ul>
@@ -65,6 +64,10 @@ Data: ##/##/2018
                                             <label for="iCPF">Seu CPF</label>
                                             <input id="iCPF" name="nCPF" type="text" class="form-control">
                                         </div>
+                                        <div class="form-group">
+                                            <label for="iRG">Seu RG</label>
+                                            <input id="iRG" name="nRG" type="text" class="form-control">
+                                        </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading">Gênero</div>
                                             <div class="panel-body">
@@ -74,7 +77,7 @@ Data: ##/##/2018
                                             </div>
                                         </div>
                                         <div class="panel panel-default">
-                                            <div class="panel-heading"><i class="fa fa-"></i> Estado Civil</div>
+                                            <div class="panel-heading"><i class=""></i> Estado Civil</div>
                                             <div class="panel-body">
                                                 <label class="radio-inline"><input id="iCasado" name="nEstadoCivil" type="radio">Casado(a)</label>
                                                 <label class="radio-inline"><input id="iViuvo" name="nEstadoCivil" type="radio">Viuvo(a)</label>
@@ -127,7 +130,7 @@ Data: ##/##/2018
                                         <div class="form-group">
                                             <label for="iFabricante">Fabricante</label>
                                             <select class="form-control" id="iFabricante">
-                                                <option></option>
+                                                <option>_</option>
                                                 <option>Chevrolet</option>
                                                 <option>Fiat</option>
                                                 <option>Ford</option>
@@ -144,9 +147,17 @@ Data: ##/##/2018
                                             </select>
                                         </div>
                                         <div class="form-group">
+                                            <label for="iVeiculo">Veículo</label>
+                                            <input id="iVeiculo" name="nVeiculo" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="iVeiculoAno">Ano</label>
+                                            <input id="iVeiculoAno" name="nVeiculoAno" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
                                             <label for="iClasse">Classe</label>
                                             <select class="form-control" id="iClasse">
-                                                <option></option>
+                                                <option>_</option>
                                                 <option>Micro</option>
                                                 <option>Subcompacto</option>
                                                 <option>Compacto</option>
@@ -169,7 +180,7 @@ Data: ##/##/2018
                                         <div class="form-group">
                                             <label for="iCarroceria">Carroceria</label>
                                             <select class="form-control" id="iCarroceria">
-                                                <option></option>
+                                                <option>_</option>
                                                 <option>Hatchbacks</option>
                                                 <option>Sedans</option>
                                                 <option>Station Wagons</option>
@@ -189,8 +200,119 @@ Data: ##/##/2018
                                             </select>
                                         </div>
                                         <div class="form-group">
+                                            <label for="iPlaca">Placa do Veículo</label>
+                                            <input id="iPlaca" name="nPlaca" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="iPortas"><i class=""></i> Quantidade de Portas</label>
+                                            <select class="form-control" id="iPortas">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="iRenavam">Renavam</label>
+                                            <input id="iRenavam" name="nRenavam" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
                                             <label for="iNumeroChassi">Número do Chassi</label>
                                             <input id="iNumeroChassi" name="nNumeroChassi" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="iCambio">Câmbio</label>
+                                            <select class="form-control" id="iCambio">
+                                                <option>_</option>
+                                                <option>Mecânico</option>
+                                                <option>Hidráulico</option>
+                                                <option>Elétrico</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="iCor">Cor</label>
+                                            <select class="form-control" id="iCor">
+                                                <option>_</option>
+                                                <option>Branco</option>
+                                                <option>Preto</option>
+                                                <option>Prata</option>
+                                                <option>Vermelho</option>
+                                                <option>Azul</option>
+                                                <option>Verde</option>
+                                                <option>Cinza</option>
+                                                <option>Amarelo</option>
+                                                <option>Verde</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="iCombustivel"><i class=""></i> Combustível</label>
+                                            <select class="form-control" id="iCombustivel">
+                                                <option>_</option>
+                                                <option>Etanol</option>
+                                                <option>Gasolina</option>
+                                                <option>Diesel</option>
+                                                <option>Gás</option>
+                                                <option>Elétrico</option>
+                                                <option>Flex</option>
+                                                <option>Hidrogênio</option>
+                                            </select>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Uso do Veículo</div>
+                                            <div class="panel-body">
+                                                <div class="checkbox">
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Locomoção Diária</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Só Lazer</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Comercial - Visita à Clientes</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading"><i class=""></i> Garagem</div>
+                                            <div class="panel-body">
+                                                <div class="form-group">
+                                                    <p>Casa</p>
+                                                    <label class="radio-inline"><input id="iGaragemCasaSim" name="nGaragemCasa" type="radio">Sim</label>
+                                                    <label class="radio-inline"><input id="iGaragemCasaNao" name="nGaragemCasa" type="radio">Não</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <p>Trabalho</p>
+                                                    <label class="radio-inline"><input id="iGaragemTrabalhoSim" name="nGaragemTrabalho" type="radio">Sim</label>
+                                                    <label class="radio-inline"><input id="iGaragemTrabalhoNao" name="nGaragemTrabalho" type="radio">Não</label>
+                                                    <label class="radio-inline"><input id="iGaragemTrabalhoNaoUtiliza" name="nGaragemTrabalho" type="radio">Não Utilizo/Não Trabalho</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <p>Universidade/Escola</p>
+                                                    <label class="radio-inline"><input id="iGaragemEscolaSim" name="nGaragemEscola" type="radio">Sim</label>
+                                                    <label class="radio-inline"><input id="iGaragemEscolaNao" name="nGaragemEscola" type="radio">Não</label>
+                                                    <label class="radio-inline"><input id="iGaragemEscolaNaoUtiliza" name="nGaragemEscola" type="radio">Não Utilizo/Não Estudo</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading"><i class=""></i> Residência</div>
+                                            <div class="panel-body">
+                                                <div class="checkbox">
+                                                    <div class="form-group">
+                                                        <p>Mora em: </p>
+                                                        <label class="checkbox-inline"><input type="checkbox" value="">Apartamento</label>
+                                                        <label class="checkbox-inline"><input type="checkbox" value="">Casa</label>
+                                                        <label class="checkbox-inline"><input type="checkbox" value="">Condomínio</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="iPortao"><i class=""></i> Portão</label>
+                                                    <select class="form-control" id="iPortao">
+                                                        <option>_</option>
+                                                        <option>Automático</option>
+                                                        <option>Manual</option>
+                                                        <option>Porteiro</option>
+                                                        <option>Não possui</option>
+                                                    </select>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -198,9 +320,20 @@ Data: ##/##/2018
                             <div id="iTipoSeguro" class="tab-content fade">
                                 <div class="panel panel-default">
                                     <div class="panel-body">
-                                        <label class="radio-inline"><input id="iTotal" name="nTipoSeguro" type="radio">Total</label>
-                                        <label class="radio-inline"><input id="iAcidente" name="nTipoSeguro" type="radio">Acidente</label>
-                                        <label class="radio-inline"><input id="iFurto" name="nTipoSeguro" type="radio">Furto</label>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Cobertura do Seguro</div>
+                                            <div class="panel-body">
+                                                <div class="checkbox">
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Desastre Ambiental</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Furto</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Acidente</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Riscos</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Pneus</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Vidros</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value="">Air Bags</label>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="checkbox">
                                             <label class="checkbox-inline"><input type="checkbox" value="">Concordo com os termos</label>
                                         </div>
