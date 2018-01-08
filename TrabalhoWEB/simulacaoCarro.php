@@ -16,6 +16,7 @@ Data: ##/##/2018
         <meta charset="utf-8">
         <meta name="author" content="Marina Margarida de Oliveira, Vitor de Siqueira Cotta">
         <link rel="stylesheet" href="FrameWorks/font-awesome-4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="FrameWorks/font-google-material-icons/google-material-icons.css">
         <script type="text/javascript" src="FrameWorks/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="FrameWorks/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
         <link rel="stylesheet" type="text/css" href="FrameWorks/bootstrap-3.3.7-dist/css/bootstrap.css">
@@ -28,7 +29,7 @@ Data: ##/##/2018
             <header>
                 <nav class="navbar navbar-inverse">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">NOME DO SITE</a>
+                        <a class="navbar-brand" href="#">Bee Safe</a>
                     </div>
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Página inicial</a></li>
@@ -69,7 +70,7 @@ Data: ##/##/2018
                                             <input id="iRG" name="nRG" type="text" class="form-control">
                                         </div>
                                         <div class="panel panel-default">
-                                            <div class="panel-heading">Gênero</div>
+                                            <div class="panel-heading"><i class="fa fa-genderless"></i> Gênero</div>
                                             <div class="panel-body">
                                                 <label class="radio-inline"><input id="iMasculino" name="nGenero" type="radio"><i class="fa fa-mars"></i> Masculino</label>
                                                 <label class="radio-inline"><input id="iFeminino" name="nGenero" type="radio"><i class="fa fa-venus"></i> Feminino</label>
@@ -77,7 +78,7 @@ Data: ##/##/2018
                                             </div>
                                         </div>
                                         <div class="panel panel-default">
-                                            <div class="panel-heading"><i class=""></i> Estado Civil</div>
+                                            <div class="panel-heading"><i class="material-icons">people</i> Estado Civil</div>
                                             <div class="panel-body">
                                                 <label class="radio-inline"><input id="iCasado" name="nEstadoCivil" type="radio">Casado(a)</label>
                                                 <label class="radio-inline"><input id="iViuvo" name="nEstadoCivil" type="radio">Viuvo(a)</label>
@@ -86,30 +87,42 @@ Data: ##/##/2018
                                                 <label class="radio-inline"><input id="iSeparado" name="nEstadoCivil" type="radio">Separado(a)</label>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="iFilhos"><i class="fa fa-child"></i> Filhos</label>
-                                            <select class="form-control" id="iFilhos">
-                                                <option>0</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                                <option>6</option>
-                                                <option>7</option>
-                                                <option>8</option>
-                                                <option>9</option>
-                                                <option>10</option>
-                                            </select>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading"><i class="fa fa-child"></i> Filhos</div>
+                                            <div class="panel-body">
+                                                <div class="form-group">
+                                                    <label for="iFilhos">Quantidade</label>
+                                                    <select class="form-control" id="iFilhos">
+                                                        <option disabled selected value> -- Selecione uma opção. -- </option>
+                                                        <option>0</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                        <option>6</option>
+                                                        <option>7</option>
+                                                        <option>8</option>
+                                                        <option>9</option>
+                                                        <option>10</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Filho com habilitação</label>
+                                                    <br>
+                                                    <label class="radio-inline"><input id="iFilhoHabilitadoSim" name="nFilhoHabilitado" type="radio">Sim</label>
+                                                    <label class="radio-inline"><input id="iFilhoHabilitadoNao" name="nFilhoHabilitado" type="radio">Não</label>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading">Depedências</div>
                                             <div class="panel-body">
                                                 <div class="checkbox">
-                                                    <label class="checkbox-inline"><input type="checkbox" value="">Bebidas Alcoólicas</label>
-                                                    <label class="checkbox-inline"><input type="checkbox" value="">Tabaco</label>
-                                                    <label class="checkbox-inline"><input type="checkbox" value="">Jogos de Azar</label>
-                                                    <label class="checkbox-inline"><input type="checkbox" value="">Entorpecentes</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value=""><i class="fa fa-beer"></i> Bebidas Alcoólicas</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value=""><i class="material-icons">smoking_rooms</i> Tabaco</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value=""><i class="material-icons">casino</i> Jogos de Azar</label>
+                                                    <label class="checkbox-inline"><input type="checkbox" value=""><i class="fa fa-eyedropper"></i> Entorpecentes</label>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,7 +143,7 @@ Data: ##/##/2018
                                         <div class="form-group">
                                             <label for="iFabricante">Fabricante</label>
                                             <select class="form-control" id="iFabricante">
-                                                <option>_</option>
+                                                <option disabled selected value> -- Selecione uma opção. -- </option>
                                                 <option>Chevrolet</option>
                                                 <option>Fiat</option>
                                                 <option>Ford</option>
@@ -157,7 +170,7 @@ Data: ##/##/2018
                                         <div class="form-group">
                                             <label for="iClasse">Classe</label>
                                             <select class="form-control" id="iClasse">
-                                                <option>_</option>
+                                                <option disabled selected value> -- Selecione uma opção. -- </option>
                                                 <option>Micro</option>
                                                 <option>Subcompacto</option>
                                                 <option>Compacto</option>
@@ -180,7 +193,7 @@ Data: ##/##/2018
                                         <div class="form-group">
                                             <label for="iCarroceria">Carroceria</label>
                                             <select class="form-control" id="iCarroceria">
-                                                <option>_</option>
+                                                <option disabled selected value> -- Selecione uma opção. -- </option>
                                                 <option>Hatchbacks</option>
                                                 <option>Sedans</option>
                                                 <option>Station Wagons</option>
@@ -225,7 +238,7 @@ Data: ##/##/2018
                                         <div class="form-group">
                                             <label for="iCambio">Câmbio</label>
                                             <select class="form-control" id="iCambio">
-                                                <option>_</option>
+                                                <option disabled selected value> -- Selecione uma opção. -- </option>
                                                 <option>Mecânico</option>
                                                 <option>Hidráulico</option>
                                                 <option>Elétrico</option>
@@ -234,7 +247,7 @@ Data: ##/##/2018
                                         <div class="form-group">
                                             <label for="iCor">Cor</label>
                                             <select class="form-control" id="iCor">
-                                                <option>_</option>
+                                                <option disabled selected value> -- Selecione uma opção. -- </option>
                                                 <option>Branco</option>
                                                 <option>Preto</option>
                                                 <option>Prata</option>
@@ -249,7 +262,7 @@ Data: ##/##/2018
                                         <div class="form-group">
                                             <label for="iCombustivel"><i class=""></i> Combustível</label>
                                             <select class="form-control" id="iCombustivel">
-                                                <option>_</option>
+                                                <option disabled selected value> -- Selecione uma opção. -- </option>
                                                 <option>Etanol</option>
                                                 <option>Gasolina</option>
                                                 <option>Diesel</option>
@@ -260,7 +273,7 @@ Data: ##/##/2018
                                             </select>
                                         </div>
                                         <div class="panel panel-default">
-                                            <div class="panel-heading">Uso do Veículo</div>
+                                            <div class="panel-heading"><i class="material-icons">transfer_within_a_station</i> Uso do Veículo</div>
                                             <div class="panel-body">
                                                 <div class="checkbox">
                                                     <label class="checkbox-inline"><input type="checkbox" value="">Locomoção Diária</label>
@@ -273,18 +286,18 @@ Data: ##/##/2018
                                             <div class="panel-heading"><i class=""></i> Garagem</div>
                                             <div class="panel-body">
                                                 <div class="form-group">
-                                                    <p>Casa</p>
-                                                    <label class="radio-inline"><input id="iGaragemCasaSim" name="nGaragemCasa" type="radio">Sim</label>
-                                                    <label class="radio-inline"><input id="iGaragemCasaNao" name="nGaragemCasa" type="radio">Não</label>
+                                                    <p><i class="fa fa-home"></i> Residência</p>
+                                                    <label class="radio-inline"><input id="iGaragemResidenciaSim" name="nGaragemResidencia" type="radio">Sim</label>
+                                                    <label class="radio-inline"><input id="iGaragemResidenciaNao" name="nGaragemResidencia" type="radio">Não</label>
                                                 </div>
                                                 <div class="form-group">
-                                                    <p>Trabalho</p>
+                                                    <p><i class="material-icons">work</i> Trabalho</p>
                                                     <label class="radio-inline"><input id="iGaragemTrabalhoSim" name="nGaragemTrabalho" type="radio">Sim</label>
                                                     <label class="radio-inline"><input id="iGaragemTrabalhoNao" name="nGaragemTrabalho" type="radio">Não</label>
                                                     <label class="radio-inline"><input id="iGaragemTrabalhoNaoUtiliza" name="nGaragemTrabalho" type="radio">Não Utilizo/Não Trabalho</label>
                                                 </div>
                                                 <div class="form-group">
-                                                    <p>Universidade/Escola</p>
+                                                    <p><i class="material-icons">school</i> Universidade/Escola</p>
                                                     <label class="radio-inline"><input id="iGaragemEscolaSim" name="nGaragemEscola" type="radio">Sim</label>
                                                     <label class="radio-inline"><input id="iGaragemEscolaNao" name="nGaragemEscola" type="radio">Não</label>
                                                     <label class="radio-inline"><input id="iGaragemEscolaNaoUtiliza" name="nGaragemEscola" type="radio">Não Utilizo/Não Estudo</label>
@@ -296,7 +309,6 @@ Data: ##/##/2018
                                             <div class="panel-body">
                                                 <div class="checkbox">
                                                     <div class="form-group">
-                                                        <p>Mora em: </p>
                                                         <label class="checkbox-inline"><input type="checkbox" value="">Apartamento</label>
                                                         <label class="checkbox-inline"><input type="checkbox" value="">Casa</label>
                                                         <label class="checkbox-inline"><input type="checkbox" value="">Condomínio</label>
@@ -305,7 +317,7 @@ Data: ##/##/2018
                                                 <div class="form-group">
                                                     <label for="iPortao"><i class=""></i> Portão</label>
                                                     <select class="form-control" id="iPortao">
-                                                        <option>_</option>
+                                                        <option disabled selected value> -- Selecione uma opção. -- </option>
                                                         <option>Automático</option>
                                                         <option>Manual</option>
                                                         <option>Porteiro</option>

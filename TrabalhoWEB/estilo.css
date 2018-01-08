@@ -14,7 +14,9 @@ Data: ##/##/2018
 /*TAGS*/
 
 body {
-    background: dodgerblue;
+    background-image: url(img/live-1532301_1920.jpg);
+    background-repeat: no-repeat;
+    background-color: green;
 }
 
 figure {
@@ -57,12 +59,16 @@ h1 {
 
 /*CLASSES*/
 
+i.material-icons {
+    font-size:16px;
+}
+
+.panel-heading {
+    font-weight: bold;
+}
+
 .navbar {
     margin-bottom: 0px;
 }
 
 /*ID*/
-
-body {
-    background-image: url(img/live-1532301_1920.jpg);
-}
