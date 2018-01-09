@@ -20,7 +20,7 @@ Data: ##/##/2018
         <script type="text/javascript" src="FrameWorks/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="FrameWorks/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
         <link rel="stylesheet" type="text/css" href="FrameWorks/bootstrap-3.3.7-dist/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
         <link rel="icon" type="image/png" sizes="96x96" href="_img/icone.png">
         <title>Simulação Carro</title>
     </head>
@@ -52,7 +52,7 @@ Data: ##/##/2018
                         <li><a data-toggle="tab" href="#iCarro"><i class="fa fa-automobile"></i> Dados do Carro</a></li>
                         <li><a data-toggle="tab" href="#iTipoSeguro"><i class="fa fa-file-text"></i>  Tipo de Seguro</a></li>
                     </ul>
-                    <form action="#">
+                    <form method="post" action="#">
                         <div class="tab-content">
                             <div id="iCliente" class="tab-pane fade in active">
                                 <div class="panel panel-default">
@@ -76,6 +76,16 @@ Data: ##/##/2018
                                                 <label class="radio-inline"><input id="iFeminino" name="nGenero" type="radio"><i class="fa fa-venus"></i> Feminino</label>
                                                 <label class="radio-inline"><input id="iNaoBinario" name="nGenero" type="radio"><i class="fa fa-transgender-alt"></i> Não Binário</label>
                                             </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="iSalario"><i class="material-icons">monetization_on</i> Qual é seu salário.</label>
+                                            <select class="form-control" id="iSalario">
+                                                <option disabled selected value> -- Selecione uma opção. -- </option>
+                                                <option>1 à 5 salários mínimos</option>
+                                                <option>5 à 10 salários mínimos</option>
+                                                <option>10 à 15 salários mínimos</option>
+                                                <option>Mais de 20 salários mínimos</option>
+                                            </select>
                                         </div>
                                         <div class="panel panel-default">
                                             <div class="panel-heading"><i class="material-icons">people</i> Estado Civil</div>
@@ -168,6 +178,10 @@ Data: ##/##/2018
                                             <input id="iVeiculoAno" name="nVeiculoAno" type="text" class="form-control">
                                         </div>
                                         <div class="form-group">
+                                            <label for="iDistanciaPecorrida">Anualmente quantos KM usa o automóvel?</label>
+                                            <input id="iDistanciaPecorrida" name="nDistanciaPecorrida" type="text" class="form-control" placeholder="Distância em KM">
+                                        </div>
+                                        <div class="form-group">
                                             <label for="iClasse">Classe</label>
                                             <select class="form-control" id="iClasse">
                                                 <option disabled selected value> -- Selecione uma opção. -- </option>
@@ -245,7 +259,7 @@ Data: ##/##/2018
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="iCor">Cor</label>
+                                            <label for="iCor"><i class="material-icons">color_lens</i> Cor</label>
                                             <select class="form-control" id="iCor">
                                                 <option disabled selected value> -- Selecione uma opção. -- </option>
                                                 <option>Branco</option>
@@ -260,7 +274,7 @@ Data: ##/##/2018
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="iCombustivel"><i class=""></i> Combustível</label>
+                                            <label for="iCombustivel"><i class="material-icons">local_gas_station</i> Combustível</label>
                                             <select class="form-control" id="iCombustivel">
                                                 <option disabled selected value> -- Selecione uma opção. -- </option>
                                                 <option>Etanol</option>

@@ -19,7 +19,7 @@ Data: ##/##/2018
         <script type="text/javascript" src="FrameWorks/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="FrameWorks/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
         <link rel="stylesheet" type="text/css" href="FrameWorks/bootstrap-3.3.7-dist/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
         <link rel="icon" type="image/png" sizes="96x96" href="_img/icone.png">
         <title>Sobre</title>
     </head>

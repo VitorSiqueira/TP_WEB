@@ -14,7 +14,7 @@ Data: ##/##/2018
 /*TAGS*/
 
 body {
-    background-image: url(img/live-1532301_1920.jpg);
+    background-image: url(../Imagem/background.jpg);
     background-repeat: no-repeat;
     background-color: green;
 }
@@ -39,12 +39,6 @@ footer {
     padding: 0px;
     text-align: center;
     width: 100%;
-}
-
-legend {
-    width:inherit; /* Or auto */
-    padding:0 10px; /* To give a bit of padding on the left and right */
-    border-bottom:none;
 }
 
 main {

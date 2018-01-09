@@ -19,7 +19,7 @@ Data: ##/##/2018
         <script type="text/javascript" src="FrameWorks/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="FrameWorks/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
         <link rel="stylesheet" type="text/css" href="FrameWorks/bootstrap-3.3.7-dist/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
         <link rel="icon" type="image/png" sizes="96x96" href="_img/icone.png">
         <title>Página Inicial</title>
     </head>
@@ -47,7 +47,7 @@ Data: ##/##/2018
                     <div class="row">
                         <div class="col-lg-5">
                             <figure>
-                                <img class="img-responsive img-rounded" src="img/carro.jpg">
+                                <img class="img-responsive img-rounded" src="Imagem/carro.jpg">
                                 <figcaption>Seguro Automotivo</figcaption>
                             </figure>
                         </div>
@@ -55,7 +55,7 @@ Data: ##/##/2018
                         </div>
                         <div class="col-lg-5">
                             <figure>
-                                <img class="img-responsive img-rounded" src="img/casaDeAbelha.jpg">
+                                <img class="img-responsive img-rounded" src="Imagem/casaDeAbelha.jpg">
                                 <figcaption>Seguro Residencial</figcaption>
                             </figure>
                         </div>
